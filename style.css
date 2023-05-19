@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/**
+ * 1. Change the font styles in all browsers.
+ * 2. Remove the margin in Firefox and Safari.
+ */
+
+ button,
+ input,
+ optgroup,
+ select,
+ textarea {
+   font-family: inherit; /* 1 */
+   font-size: 100%; /* 1 */
+   line-height: 1.15; /* 1 */
+   margin: 0; /* 2 */
+ }
+ 
+ /**
+  * Show the overflow in IE.
+  * 1. Show the overflow in Edge.
+  */
+ 
+ button,
+ input { /* 1 */
+   overflow: visible;
+ }
+ 
+ /**
+  * Remove the inheritance of text transform in Edge, Firefox, and IE.
+  * 1. Remove the inheritance of text transform in Firefox.
+  */
+ 
+ button,
+ select { /* 1 */
+   text-transform: none;
+ }
+ 
+ /**
+  * Correct the inability to style clickable types in iOS and Safari.
+  */
+ 
+ button,
+ [type="button"],
+ [type="reset"],
+ [type="submit"] {
+   -webkit-appearance: button;
+ }
+body{
+    font-family: 'Roboto';
+}
+nav{
+
+    display: flex;
+    background: #1f2937;
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 900px;
+    width: 100%;
+    color: white;
+    padding: 20px;
+
+}
+
+nav ul{
+    display: flex;
+    justify-content: space-around;
+    gap: 15px;
+}
+nav ul li{
+    list-style: none;
+    font-size: 18px;
+    color: #e5e7eb;
+}
+p{
+    font-size: 18px;
+    color:#e5e7eb
+}
+.logo{
+    font-size: 24px;
+    color:#f9faf8;
+    font-weight: 600;
+}
+.hero{
+    display: flex;
+    background-color: #1f2937;
+    color: white;
+    justify-content: center;
+}
+.hero-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    max-width: 900px;
+    width: 100%;
+    color: white;
+    padding: 80px 20px;
+    gap: 40px;
+}
+h1{
+    font-size: 48px;
+    font-weight: 800;
+}
+
+button{
+    background-color: #3882f6;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    margin: 10px 0px;
+    font-weight:600 ;
+}
+.hero-left{
+    max-width: 40%;
+}
+
+
+/* code for middlle body */
+
+.testimonials{
+    display: flex;
+    justify-content: center;
+}
+.testimonials-container{
+    display: flex;
+    flex-direction: column;
+}
+.info-header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+    text-align: center;
+    margin: 40px;
+}
+.testimonials-content{
+    display: flex;
+    justify-content: center;
+    margin: 0px 40px;
+
+}
+.testimonials-content div button{
+    height: 250px;
+    width: 250px;
+    border-radius: 10px;
+    background-color: white;
+    border: solid thick #3882f6;
+
+}
