@@ -203,3 +203,44 @@ button{
     align-self: flex-end;
     padding-right:20px;
 }
+
+/* code for cta */
+
+.cta{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cta-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 20px;
+    max-width: 900px;
+    width: 100%;
+    background-color: #3882f6;
+    margin: 100px 50px;
+    border-radius: 10px;
+}
+.cta-text{
+    font-weight: 800;
+}
+.cta-container button {
+    border:  solid white;
+    padding: 5px 30px;
+}
+
+/* footer code */
+
+
+.footer-container {
+    display: flex;
+    background-color: #1f2937;
+    width: 100%;
+    padding: 20px 0;
+    justify-content: center;
+
+}
+p {
+    color: white;
+}
