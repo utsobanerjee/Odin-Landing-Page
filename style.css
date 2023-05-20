@@ -169,3 +169,37 @@ button{
     width: 20%;
     color: #1f2937;
 }
+
+/* code for the quote */
+
+.quote{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+    background-color: #e5e7eb;
+}
+.quote-container{
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 100px 20px;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.thor-quote {
+    font-size: 36px;
+    font-weight: 300;
+    font-style: italic;
+    color: #1f2937;
+}
+.thor{
+    align-items: ;
+    color: #1f2937;
+    font-weight: 800;
+    align-self: flex-end;
+    padding-right:20px;
+}
